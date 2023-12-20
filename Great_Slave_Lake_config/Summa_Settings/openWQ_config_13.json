@@ -1,0 +1,24 @@
+{
+    
+    "BIOGEOCHEMISTRY_CONFIGURATION":{
+
+        "SCALARAQUIFER":{
+            "CYCLING_FRAMEWORK": ["BGQcycle_13"],
+            "INITIAL_CONDITIONS":{
+                "Data_Format": "JSON",
+                "Data":{
+                    "BOD": {
+                        "1": ["all","all","all",10,"mg"]
+                    },
+                    "DEFICIT_OXYG": {
+                        "1": ["all","all","all",0,"mg"]
+                    },
+                    "DO": {
+                        "1": ["all","all","all",0,"mg"]
+                    }
+                }
+            }
+        }
+
+    } 
+}

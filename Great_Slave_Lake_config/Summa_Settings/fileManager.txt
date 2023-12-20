@@ -1,0 +1,20 @@
+controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  file manager version 
+simStartTime         '2022-12-01 00:00' ! 
+simEndTime           '2022-12-02 23:00' ! 
+tmZoneInfo           'utcTime' ! 
+outFilePrefix        'GreatSlaveLake' ! 
+settingsPath         '/home/cbaker/Hydro/SUMMAapptainer/case_studies/OpenWQ_Basins/Great_Slave_Lake_config/Summa_Settings/' ! 
+forcingPath          '/home/cbaker/Hydro/SUMMAapptainer/case_studies/mizuroute_Great_Slave_Lake/forcingData/' ! 
+outputPath           '/home/cbaker/Hydro/SUMMAapptainer/case_studies/mizuroute_Great_Slave_Lake/summa_output/' ! 
+initConditionFile    'coldState.nc' ! Relative to settingsPath 
+attributeFile        'attributes.nc' ! Relative to settingsPath 
+trialParamFile       'trialParams.nc' ! Relative to settingsPath 
+forcingListFile      'forcingFileList.txt' ! Relative to settingsPath 
+decisionsFile        'modelDecisions.txt' !  Relative to settingsPath 
+outputControlFile    'outputControl.txt' !  Relative to settingsPath 
+globalHruParamFile   'localParamInfo.txt' !  Relative to settingsPath 
+globalGruParamFile   'basinParamInfo.txt' !  Relative to settingsPatho 
+vegTableFile         'TBL_VEGPARM.TBL' ! Relative to settingsPath 
+soilTableFile        'TBL_SOILPARM.TBL' ! Relative to settingsPath 
+generalTableFile     'TBL_GENPARM.TBL' ! Relative to settingsPath 
+noahmpTableFile      'TBL_MPTABLE.TBL' ! Relative to settingsPath 
