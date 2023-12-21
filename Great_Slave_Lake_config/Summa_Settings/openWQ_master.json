@@ -29,7 +29,7 @@
 		"NO_WATER_CONC_FLAG": -9999, // only accepts integers
 		"COMPARTMENTS_AND_CELLS": {
 			"SCALARAQUIFER": {
-				"1": [1,1,1]
+				"1": ["all",1,1]
 			}
 		},
 		"TIMESTEP": [1,"day"]
