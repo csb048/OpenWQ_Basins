@@ -10,3 +10,13 @@ These are the shapefiles for creating the input into SUMMA and Mizuroute for the
 
 - Baker Creek Basin: 
     - This is the Baker Creek Basin. It is a small basin that is used for testing purposes.
+
+# Configuration Files
+ 
+These are the config files made for specific domains to be ran by summa-openwq and mizuroute-openwq.
+
+- Great Slave Lake config:
+    - This is where summa-openwq and mizuroute-openwq config files for the Great Slave Lake domain can be found.
+        - Mizuroute_Settings: Contains the config files specificly for running mizuroute-openwq on this domain.
+        - Summa_Settings: Contains the config files specificly for running summa-openwq on this domain.
+    - **NOTE:** Remember to modify mizuroute.control and fileManager.txt with updated paths for input and output dirrectories, and update the paths in openWQ_master.json for the additional openwq config files.  For best reults use absolute paths.  
