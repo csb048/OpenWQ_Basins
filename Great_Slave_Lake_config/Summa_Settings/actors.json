@@ -1,0 +1,37 @@
+{
+    "Distributed_Settings": {
+        "distributed_mode": false,
+        "num_hru_per_batch": -9999,
+        "port": -9999,
+        "servers_list": [
+            {
+                "hostname": "host_1"
+            },
+            {
+                "hostname": "host_2"
+            },
+            {
+                "hostname": "host_3"
+            }
+        ],
+        "total_hru_count": -9999
+    },
+    "File_Access_Actor": {
+        "num_partitions_in_output_buffer": 4,
+        "num_timesteps_in_output_buffer": 500
+    },
+    "HRU_Actor": {
+        "abs_tol": -9999,
+        "dt_init_factor": 1,
+        "output_frequency": 1000,
+        "print_output": true,
+        "rel_tol": -9999
+    },
+    "Job_Actor": {
+        "file_manager_path": "/home/cbaker/Hydro/SUMMAapptainer/case_studies/OpenWQ_Basins/Great_Slave_Lake_config/Summa_Settings/fileManager-actors.txt",
+        "max_run_attempts": 1
+    },
+    "Summa_Actor": {
+        "max_gru_per_job": 100
+    }
+}

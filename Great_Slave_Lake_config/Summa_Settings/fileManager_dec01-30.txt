@@ -1,12 +1,12 @@
 controlVersion       'SUMMA_FILE_MANAGER_V3.0.0' !  file manager version 
-simStartTime         '2022-12-01 00:00' ! 
+simStartTime         '2022-12-20 01:00' ! 
 simEndTime           '2022-12-30 23:00' ! 
 tmZoneInfo           'utcTime' ! 
-outFilePrefix        'GreatSlaveLake-base-dec01-30' ! 
+outFilePrefix        'GreatSlaveLake-base-dec20-30' ! 
 settingsPath         '/home/cbaker/Hydro/SUMMAapptainer/case_studies/OpenWQ_Basins/Great_Slave_Lake_config/Summa_Settings/' ! 
 forcingPath          '/home/cbaker/Hydro/SUMMAapptainer/case_studies/mizuroute_Great_Slave_Lake/forcingData/' ! 
 outputPath           '/home/cbaker/Hydro/SUMMAapptainer/case_studies/mizuroute_Great_Slave_Lake/summa_output/' ! 
-initConditionFile    'coldState.nc' ! Relative to settingsPath 
+initConditionFile    'GreatSlaveLake-base_restart_2022122000_G00001-00100_gracefull.nc' ! Relative to settingsPath 
 attributeFile        'attributes.nc' ! Relative to settingsPath 
 trialParamFile       'trialParams.nc' ! Relative to settingsPath 
 forcingListFile      'forcingFileList.txt' ! Relative to settingsPath 
